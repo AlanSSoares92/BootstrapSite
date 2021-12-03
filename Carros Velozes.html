@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros Velozes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/fontawesome-free-6.0.0-beta3-web/fontawesome-free-6.0.0-beta3-web/css/all.css">
+  
+</head>
+
+<body style="background-color:darkred">
+         
+    <!-- navbar começa aqui -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">
+            <img alt="jaguar" title="Jaguar"
+                src="https://bestcars.com.br/bc/wp-content/uploads/2012/09/Jaguar-F-Type-03b.jpg" style="width:100px">
+        </a>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#meuSite">Meu Site</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Carros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Vendedores</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- navbar termina aqui-->
+    
+<div class="container">
+    <div class="row">
+    <!--carousel começa aqui-->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img width="100%" src="https://i.pinimg.com/originals/0c/40/af/0c40afba4dbb17a7ac24508e89c6f7d2.jpg"
+                    alt="Urus">
+            </div>
+            <div class="carousel-caption d-none d-lg-block">
+                <h3>Lamborghini Urus</h3>
+                <p>O Lamborghini Urus tem um motor 4.0 V8 Biturbo de 650 cv de potência máxima e 86,6 kgf. m de torque.
+                    A transmissão é automática de 8 marchas e a tração integral sob demanda, podendo transferir até 87%
+                    da força para as rodas traseiras ou 70% para as rodas da frente.
+                    Cilindros: V8 Biturbo
+                    Potência: 650 Cv
+                    Torque: 86,66 Kgfm
+                    Combustível: Gasolina</p>
+
+            </div>
+            <div class="carousel-item">
+                <img width="100%"
+                    src="https://img.metroworldnews.com.br/sites/11/2021/03/18/0-0/ferrarif8-ba95ddea20c31b460fadcd344d00badb-1200x600.jpg"
+                    alt="ferrari">
+                    
+            </div>
+            <div class="carousel-item">
+                <img width="100%"
+                    src="https://www.startech.de/wp-content/uploads/2015/01/startech-fahrzeug-gallery-jaguar-f-type-2015-02-1200x600.jpg"
+                    alt="Jaguar">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+    <!-- carousel acaba aqui-->
+    </div>
+    </div>
+    <!-- -->
+    <div class="container-fluid pt-5 pb-5" style="border:1px solid goldenrod; color:khaki;"  id="meuSite">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="display-4">Carros Mais velozes:</p>
+            </div>
+        </div>
+        <div class="col-12 text-center">
+            
+            <p>
+                McLaren F1 - 386,4 km/h. ...
+                Koenigsegg CCR - 388 km/h. ...
+                Bugatti Veyron 16.4 - 408,4 km/h. ...
+                SSC Ultimate Aero TT - 412,1 km/h. ...
+                Bugatti Veyron Super Sport - 430,9 km/h. ...
+                Hennessey Venom GT - 435,1 km/h. ...
+                Koenigsegg Agera RS - 447 km/h. ...
+                Bugatti Chiron Super Sport 300+ - 490,3 km/h
+            </p>
+
+            <!-- meu modal começa aqui-->
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- Button to Open the Modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                        Bugatti-Chiron-41
+                    </button>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+                        SSC Tuatara
+                    </button>
+
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title"></h4>
+                                    <a href="#" type="button" value="Fechar" class="Fechar"
+                                        data-dismiss="modal">&times;</button>
+                                </div>
+
+
+                                <!-- Modal body -->
+                                <img src="https://mundofixa.com/wp-content/uploads/2018/02/Bugatti-Chiron-41.jpg"
+                                    style="width: 100%;">
+                                    <p>Bugatti-Chiron-41  um dos carros mais cobiçados do mundo.</p>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+
+
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal dois-->
+                        <!-- The Modal -->
+                        <div class="modal" id="myModal2" name="myModal2">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+    
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title"></h4>
+                                        <a href="#" type="button" value="Fechar" class="Fechar"
+                                            data-dismiss="modal2">&times;</button>
+                                        </div>
+                                         <!-- Modal body -->
+                                     <img src="https://revistacarro.com.br/wp-content/uploads/2021/01/ssc-tuatara-3.jpg"
+                                     style="width: 100%;">
+                                     <p>ssc-tuatara-3 O carro mais veloz do mundo!.</p>
+                                     <!-- Modal footer -->
+                                 <div class="modal-footer">
+                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                 </div>
+
+            </div>
+        </div>
+        <!-- meu modal termina aqui-->
+      
+
+    </div>
+
+    </div>
+    <!--about termina aqui-->
+
+    <!-- footer começa aqui-->
+    <footer class="bg-dark text-light text-center p-3">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 text-left">
+                    Links mais acessados
+                    <div class="list-group bg-dark list-group-flush">
+                        <a href="#" class="list-group-item list-group-item-action bg-dark text-light">Home</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-dark text-light">Loja
+                            Online</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-dark text-light">Blog</a>
+                    </div>
+                </div>
+                <div class="col-6 text-left">
+                    Redes Sociais
+                    <div class="list-group bg-dark list-group-flush">
+                        <a href="#" class="list-group-item list-group-item-action bg-dark text-light"><i
+                                class='fab fa-facebook'></i> Facebook</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-dark text-light"><i
+                                class="fa-brands fa-linkedin"></i> Linkedin</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-dark text-light"><i
+                                class="fa-brands fa-twitter"></i> Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    Alan Soares &reg; 2021
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+</body>
+
+</html>
